@@ -1,3 +1,7 @@
+defmodule DemoAppWeb.HogeController do
+  use DemoAppWeb, :controller
 
-
-testesttst
+  def index(conn, _params) do
+    render(conn, "index.html")
+  end
+end
